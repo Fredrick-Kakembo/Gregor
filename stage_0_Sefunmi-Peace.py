@@ -9,7 +9,7 @@ def hammingdistance(parameter1, parameter2):
     i = 0
     cont = 0
     while (i < len (parameter1)):
-        print(i)
+#        print(i)
         if (parameter1[i] != parameter2[i]):
             cont += 1
         i += 1
@@ -22,4 +22,4 @@ Hamming_distance = hammingdistance(parameter1, parameter2)
 
 # This prints out my personal details
 
-print(f'Name: {name}\nEmail address: {email_address}\nSlack username: {slack_username}\nBiostack: {biostack}\nTwitter handle: {twitter_handle}\nHamming distance: {Hamming_distance}')
+print(f'{name},{email_address},{slack_username},{biostack},{twitter_handle},{Hamming_distance}')
