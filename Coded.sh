@@ -1,6 +1,9 @@
-git clone https://github.com/PablaOO7/Gregor.git
+#git clone https://github.com/PablaOO7/Gregor.git
+git clone https://github.com/Fredrick-Kakembo/Gregor.git
 cd Gregor
 echo "receving data... "
+
+if [ -f Gregor.csv ]; then rm Gregor.csv; touch Gregor.csv; else  touch Gregor.csv; fi
 
 python=$(find . -iname "*[^__].py")
 R=$(find . -iname "*.R")
